@@ -1,9 +1,13 @@
 import wx, rompanel
 import wx.lib.scrolledpanel
 import wx.grid as grid
+import sys
+
+sys.path.insert(0, '../')
 
 import data
-import window, consts
+import window
+import consts
 
 h2i = lambda i: int(i, 16)
 

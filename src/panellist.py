@@ -1,8 +1,5 @@
-import sys
-sys.path.append("panels")
-
-import default
-import backgrounds, battles, battle_floors, battle_sprites, spell_anims, dialogue, fonts, other_icons, maps, menu_icons, palettes, portraits, romviewer, sprites, tiles, weapon_sprites
+from panels import default
+from panels import backgrounds, battles, battle_floors, battle_sprites, spell_anims, dialogue, fonts, other_icons, maps, menu_icons, palettes, portraits, romviewer, sprites, tiles, weapon_sprites
 
 panelList = {
     "Battles": battles.BattlePanel,

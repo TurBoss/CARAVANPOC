@@ -1,4 +1,6 @@
-import wx, rompanel, consts
+import wx
+import consts
+from panels import rompanel
 
 caravanIcon = wx.Icon("caravan.ico", wx.BITMAP_TYPE_ICO)
 

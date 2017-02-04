@@ -1,7 +1,8 @@
 import wx
 import wx.gizmos as gizmos
 import window
-import asm, panellist, rompanel
+import asm, panellist
+from panels import rompanel
 
 isz = (16,16)
 il = wx.ImageList(isz[0], isz[1])

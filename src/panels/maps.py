@@ -1,4 +1,8 @@
-import wx, rompanel, binascii, window, consts
+import sys
+sys.path.insert(0, '../')
+
+import wx, rompanel, binascii, window
+import consts
 
 h2i = lambda i: int(i, 16)
 
@@ -490,7 +494,7 @@ class MapPanel(rompanel.ROMPanel):
         
         layoutInterObsGrid.SetVGap(1)
         layoutInterEventGrid.SetVGap(1)
-        
+
         layoutInterObsGrid.AddGrowableCol(1, 1)
         layoutInterEventGrid.AddGrowableCol(1, 1)
         #layoutInterObsGrid.SetFlexibleDirection(wx.HORIZONTAL)

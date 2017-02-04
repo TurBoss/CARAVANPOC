@@ -1,4 +1,6 @@
 import wx
+import sys
+sys.path.insert(0, '../')
 import util
 
 class ROMFrame(wx.MDIChildFrame):

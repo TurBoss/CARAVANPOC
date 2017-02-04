@@ -1,4 +1,6 @@
 import wx, rompanel, binascii
+import sys
+sys.path.insert(0, '../')
 import data
 
 from PIL import Image

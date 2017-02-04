@@ -1,6 +1,9 @@
 import wx, rompanel
 import wx.grid as grid
 
+import sys
+sys.path.insert(0, '../')
+
 import os, pickle
 import layout
 
